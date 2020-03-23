@@ -1,0 +1,134 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: @primaryColor;
+    padding: 1rem;
+    height: 7rem;
+    
+    .logo{
+        display: flex;
+        nav {
+            color: white;
+            i {
+                color: white;
+                font-size: 3rem;
+            }
+        }
+        .logoBrand {
+            span {
+                display: none;
+            }
+            a {
+                color: @secondaryColor;
+                font-size: 3rem;
+                margin-left: 2rem;
+                cursor: pointer;
+                text-decoration: none;
+            }
+        }
+
+    }
+
+    .search {
+        input {
+            border: none;
+            border-top-left-radius: 2rem;
+            border-bottom-left-radius: 2rem;
+            height: 3rem;
+            width: 10rem;
+            ::placeholder{
+                //Adjust place holder***********
+                margin-left: 1rem;
+            }
+        }
+        button {
+            border: none;
+            background-color: @secondaryColor;
+            height: 3rem;
+            border-top-right-radius: 2rem;
+            border-bottom-right-radius: 2rem;
+            margin-left: -1rem;
+
+            i {
+                margin-left: 0.5rem;
+            }
+        }
+        
+    }
+
+    .navOptions {
+        display: flex;
+        color: white;
+        .account {
+            display: none;
+            i{
+                font-size: 2.5rem;
+                margin-right: 0.5rem;
+            }
+        }
+        .cart {
+            i{
+                font-size: 2.5rem;
+                margin-right: 0.5rem;
+            }
+        }
+    }
+
+}
+@media @min400 {
+    header {
+        .search {
+            input {
+                width: 20rem;
+           }
+        }
+    }
+}
+
+@media @min620 {
+
+    header {
+        .logo{
+            .logoBrand {
+                display: flex;
+                align-items: center;
+                margin-left: 3rem;
+
+                span {
+                    display: block;
+                    color: white;
+                    font-size: 2rem;
+                    font-weight: 700;
+                }
+                a {
+                    margin-left: 0;
+                    padding: 0 0.5rem;
+                }
+            }
+
+        }
+
+
+    .navOptions {
+        .account {
+            display: block;
+            margin-right: 2rem;
+        }
+    }
+    }
+    
+}
+
+@media @min768 {
+
+    header {
+        .search {
+            input {
+                width: 2rem;
+            }
+            
+        }
+    }
+    
+}

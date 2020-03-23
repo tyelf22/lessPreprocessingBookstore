@@ -1,0 +1,39 @@
+//Variables
+@primaryColor: #041E42;
+
+@secondaryColor: #FFC220;
+
+@tertiary: #f5f5f5;
+
+@font: 'Nunito Sans', sans-serif;
+
+
+//Mixins
+.btnMixin(@bgColor) {
+    display: block;
+    background-color: @bgColor;
+    border-radius: 2rem;
+    font-weight: 700;
+    cursor: pointer; 
+}
+
+.underlineMixin() {
+    border-bottom: 2px solid @secondaryColor;
+}
+
+.containerMixin() {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+//Escaping Variables 
+@min400: ~"(min-width: 400px)";
+
+@min620: ~"(min-width: 620px)";
+
+@min768: ~"(min-width: 768px)";
+
+@min992: ~"(min-width: 992px)";
+
+@min1340: ~"(min-width: 1340px)";

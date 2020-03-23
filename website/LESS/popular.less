@@ -1,0 +1,122 @@
+.popular {
+    h1 {
+        font-size: 2rem;
+        text-align: center;
+        margin: 2rem 0;
+    }
+    .popularContainer {
+        display: flex;
+        justify-content: center;
+        .popularItem{
+            margin: 0.5rem;
+            .popularImage{
+                img {
+                    height: 20rem;
+                    width: 15rem;
+                    position: relative;
+                    z-index: -1;
+                }
+            }
+            .popularInfo {
+                background-color: white;
+                width: 13rem;
+                margin: -8rem auto 0 auto;
+                padding: 2rem 1rem;
+                border-bottom: 5px solid #A0B5E8;
+                h2 {
+                    margin-bottom: 1rem;
+                    text-align: center;
+                    font-size: 2rem;
+                }
+                p {
+                    text-align: center;
+                }
+            }
+        }
+    }
+
+    :nth-child(3) {
+        display: none;
+    }
+}
+
+@media (min-width: 400px) {
+    .popular {
+        .popularContainer {
+
+            .popularItem{
+                margin: 0.5rem;
+                .popularImage{
+                    img {
+                        height: 25rem;
+                        width: 20rem;
+
+                    }
+                }
+                .popularInfo {
+                    width: 18rem;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 620px) {
+    header {
+        .search {
+            input {
+                width: 20rem;
+           }
+        }
+    }
+}
+
+@media (min-width: 768px) {
+    .popular {
+        .popularContainer {
+
+            .popularItem{
+                .popularImage{
+                    img {
+                        height: 35rem;
+                        width: 23rem;
+
+                    }
+                }
+                .popularInfo {
+                    width: 20rem;
+                }
+            }
+        }
+
+        :nth-child(3) {
+            display: block;
+        }
+    }
+
+
+}
+
+
+@media @min992 {
+    .popular {
+        .popularContainer {
+
+            .popularItem{
+                .popularImage{
+                    img {
+                        height: 50rem;
+                        width: 31rem;
+
+                    }
+                }
+                .popularInfo {
+                    width: 28rem;
+                }
+            }
+        }
+
+    }
+
+
+}

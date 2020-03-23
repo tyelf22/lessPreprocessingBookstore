@@ -1,0 +1,5 @@
+{
+    "watchFolder": "website/LESS",   
+    "outputFolder": "website/css",
+    "sourceMap": true
+}
