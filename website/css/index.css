@@ -308,6 +308,7 @@ main a {
   padding: 1.5rem;
 }
 .overview .overviewItem {
+  visibility: hidden;
   height: 32rem;
   width: 100%;
   background: white;

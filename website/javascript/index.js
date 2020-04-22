@@ -24,3 +24,10 @@ slider.addEventListener("mousemove", e => {
   const walk = x - startX;
   slider.scrollLeft = scrollLeft - walk;
 });
+
+
+//GSAP
+
+document.onload(() => {
+  console.log('page loaded')
+})
