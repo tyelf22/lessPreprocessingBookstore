@@ -2,7 +2,7 @@
 
 ## Netlify Link
 
-[te-infinity-book.netlify.app](https://te-infinity-book.netlify.app/index.html)
+[te-cozy-corner.netlify.app](https://te-cozy-corner.netlify.app/index.html)
 
 ## GSAP animations
 - Page Title slides up on page load [home.js Line 5](./website/javascript/home.js#L5)
