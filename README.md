@@ -4,10 +4,10 @@
 
 [te-infinity-book.netlify.app](https://te-infinity-book.netlify.app/index.html)
 
-### GSAP animations
-- Page Title slides up on page load [home.js Line 5](./javascript/home.js#L5)
-- Overview Cards slide in from left [home.js Line 18](./javascript/home.js#L18)
-- Book Genres scale on hover [home.js Line 71](./javascript/home.js#L71)
+## GSAP animations
+- Page Title slides up on page load [home.js Line 5](./website/javascript/home.js#L5)
+- Overview Cards slide in from left [home.js Line 18](./website/javascript/home.js#L18)
+- Book Genres scale on hover [home.js Line 71](./website/javascript/home.js#L71)
 
 ## Requirements
 - Does your design match the theme (biking, spa, bookstore) you picked? ✓
